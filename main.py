@@ -316,8 +316,8 @@ async def fetch_youtube_link_backup(query):
     except Exception as e:
         raise Exception(f"Backup Search API error: {e}")
     
-BOT_NAME = os.environ.get("BOT_NAME", "Frozen Music")
-BOT_LINK = os.environ.get("BOT_LINK", "https://t.me/vcmusiclubot")
+BOT_NAME = os.environ.get("BOT_NAME", "Jannat Music")
+BOT_LINK = os.environ.get("BOT_LINK", "https://t.me/jannatmusicrobot")
 
 from pyrogram.errors import UserAlreadyParticipant, RPCError
 
@@ -374,8 +374,8 @@ async def start_handler(_, message):
     help_text = to_bold_unicode("Help")
 
     # Fetch from env with fallbacks
-    updates_channel = os.getenv("UPDATES_CHANNEL", "https://t.me/vibeshiftbots")
-    support_group = os.getenv("SUPPORT_GROUP", "https://t.me/Frozensupport1")
+    updates_channel = os.getenv("UPDATES_CHANNEL", "https://t.me/sscexamnotes_pdf")
+    support_group = os.getenv("SUPPORT_GROUP", "https://t.me/SSCASPIRANTS_0")
     start_animation = os.getenv(
         "START_ANIMATION",
         "https://frozen-imageapi.lagendplayersyt.workers.dev/file/2e483e17-05cb-45e2-b166-1ea476ce9521.mp4"
@@ -436,8 +436,8 @@ async def go_back_callback(_, callback_query):
     support_text = to_bold_unicode("Support")
     help_text = to_bold_unicode("Help")
 
-    updates_channel = os.getenv("UPDATES_CHANNEL", "https://t.me/vibeshiftbots")
-    support_group = os.getenv("SUPPORT_GROUP", "https://t.me/Frozensupport1")
+    updates_channel = os.getenv("UPDATES_CHANNEL", "https://t.me/sscexamnotes_pdf")
+    support_group = os.getenv("SUPPORT_GROUP", "https://t.me/SSCASPIRANTS_0")
 
     caption = (
         f"👋 нєу {user_link} 💠, 🥀\n\n"
